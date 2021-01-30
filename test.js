@@ -1,8 +1,6 @@
 const Canvas = require('canvas');
 const Discord = require('discord.js');
 
-module.exports.run = async (client, message, args, settings) => {
-    if (message.author.id !== "757309249440186460") return message.channel.send("Alors déjà bonjour mais t'es pas admin, essaye de hacker le compte de squarfiuz07#7777 si tu veux l'être");
     let level = 2;
     let xpObjectif = 60;
     let xp = 30;
@@ -77,14 +75,3 @@ module.exports.run = async (client, message, args, settings) => {
 
     //Envoyé l'image
     message.channel.send(attachment);
-};
-
-module.exports.help = {
-    name: "test",
-    aliases: ['test'],
-    description: "Test",
-    cooldown: 5,
-    category: 'admin',
-    permissions: true,
-    args: false,
-};
