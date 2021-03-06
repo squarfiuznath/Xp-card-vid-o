@@ -1,1 +1,1 @@
-# Xp-card-video
+# Xp-card discord.js canvas
