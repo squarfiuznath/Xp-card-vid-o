@@ -1,1 +1,1 @@
-# Xp-card discord.js canvas
+# Rankcard classic discord.js canvas
